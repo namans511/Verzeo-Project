@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat' , sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  html,body  {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  }
+  
+  .navbar-custom{
+  background-color: black;
+  }
+  .navbar-custom .navbar-brand, 
+  .navbar-custom .navbar-text { 
+      color:white; 
+  } 
+  
+  .navbar-nav > li{
+    padding-left:3px;
+    padding-right:3px;
+  }
+  
+  a{
+      color: azure;
+  }
+
+  @media (min-width: 992px){
+    .navbar li {
+        margin-left : 3px;
+        margin-right : 3px;
+    }
+  }
+  
+.carousel-item{
+    width: 100%;
+    height: 570px;
+}
+
+.footer{
+    margin-top: 300px;
+    color: #ddd;
+    background-color: black;
+  }
+
+  .column{
+    width: 33.33%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .links{
+    padding:20px;
+  }
+  .links a{
+    margin-left: 20px;
+  }
