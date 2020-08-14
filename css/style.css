@@ -37,16 +37,7 @@
     margin-left: 30px;
   }
 
-  input[type="text"]{
-    float: right;
-    border: none;
-    border-radius: 30px;
-    padding: 10px;
-    margin: 30px;
-    width: 220px;
-  }
-
-.navbar {
+  .navbar {
     background-color: #f4f6f7 ;
     margin-top: 0;
     padding-left: 300px;
@@ -87,6 +78,15 @@
     color: black;
     font-family: Georgia, serif;
     display: block;
+  }
+
+  input[type="text"]{
+    float: right;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 30px;
+    width: 220px;
   }
 
 .slideshow-container{
