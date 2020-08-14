@@ -7,67 +7,47 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="javascript/main.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+
 
     <title>Interior Design</title>
   </head>
-  <body>
+  
+  
+  <body onload="currentSlide(0)">
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-custom navbar-dark" style="background-color: #0e171d;" >
-      <a class="navbar-brand" href="#"><i style="color: azure;" class="fas fa-home fa-2x"></i></i>HomeDecor</a>
-      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="" target="_blank" >Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">About </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Bedroom</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="" target="_blank">Kitchen</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Furnitures</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
-            </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <form  style="padding-left: 30px;" class="form-inline">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </ul>
-      </div>
-    </nav>
+<header>
+<div class="title">
+  <a href="index.html">
+    <img src="images\logo4.png" class="logo_header">
+  </a>
+  <input type="text" name="" placeholder="Search">
+</div>
+</header>
 
-   <section id="slideshow">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-      <div class=" carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="../images/ss1.jpg" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="../images/ss2.jpg" alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="../images/ss3.jpg" alt="Third slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="../images/ss4.jpg" alt="Fourth slide">
-        </div>
-      </div>
+  <div class="content">
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="C:\Users\anush\Desktop\Verzeo-Project-master\images\ss1.jpg" style="width: 100%;" class="img-responsive">
     </div>
-   </section>
+
+    <div class="mySlides fade">
+      <img src="C:\Users\anush\Desktop\Verzeo-Project-master\images\ss2.jpg" style="width: 100%;" class="img-responsive">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="C:\Users\anush\Desktop\Verzeo-Project-master\images\ss3.jpg" style="width: 100%;" class="img-responsive">
+    </div>
+
+  </div>
+</br>
+</div>
     
-   <div class="footer ">
+<!--    <div class="footer ">
     <div class="container-fluid">
       <div class="row">
       <div class=" links column">
@@ -107,7 +87,7 @@
         <a href=""></a>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
 
