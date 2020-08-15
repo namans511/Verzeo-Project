@@ -170,6 +170,44 @@ footer center{
  text-shadow:1px 1px white;
 } 
 
+.photo{
+  width: 240px;
+  height: 200px;
+  float: left;
+  margin: 30px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.photos_bed_room,
+.photos_office_furniture, 
+.photos_bathroom,{
+
+  display: none;
+}
+.photos_bed_room,
+.photos_office_furniture, 
+.photos_bathroom, 
+.photos_living_room{
+  height: 400px;
+  width: 100%;
+}
+
+.price {
+  color: white;
+  background-color: black;
+  width: 80px;
+  height: 25px;
+  line-height: 30px;
+  margin-top: 50px;
+  position: inline;
+  font-size: 20px;
+  padding: 10px;
+  text-shadow: 1px 1px grey;
+  display: none;
+  border: 1px solid black;
+}
+
 
 /* .footer{
     margin-top: 300px;
